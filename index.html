@@ -13,17 +13,18 @@
         body, html {
             height: 100%;
             width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
-        .fullscreen-image {
-            height: 100%;
-            width: 100%;
-            background-image: url('TYC.png');
-            background-size: cover;
-            background-position: center;
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
-    <div class="fullscreen-image"></div>
+    <img src="TYC.png" alt="Imagen a pantalla completa">
 </body>
 </html>
